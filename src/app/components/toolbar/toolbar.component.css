@@ -1,0 +1,29 @@
+a {
+    color: #ebd8bf;
+
+}
+
+.navbar-brand {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    font-size: 2rem;
+}
+
+.navbar-brand span {
+    font-size: 1rem;
+    letter-spacing: -1px;
+}
+
+.bookNow {
+    background-color: #ebd8bf;
+    border-radius: 10px;
+    padding: 3px 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bookNow a {
+    color: #222222;
+}
