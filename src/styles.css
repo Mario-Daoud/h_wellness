@@ -10,3 +10,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* For WebKit based browsers */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #dcab35;
+    border-radius: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #222222;
+  }
