@@ -1,29 +1,62 @@
 a {
-    color: #ebd8bf;
+  color: #ebd8bf;
+}
 
+nav {
+  position: relative;
+  z-index: 10;
+  height: 100px;
 }
 
 .navbar-brand {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-items: center;
-    font-size: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  font-size: 2rem;
 }
 
 .navbar-brand span {
-    font-size: 1rem;
-    letter-spacing: -1px;
+  font-size: 1rem;
+  letter-spacing: -1px;
 }
 
 .bookNow {
-    background-color: #ebd8bf;
-    border-radius: 10px;
-    padding: 3px 18px;
-    font-weight: bold;
-    text-decoration: none;
+  background-color: #ebd8bf;
+  border-radius: 10px;
+  border: 1px solid #222222;
+  padding: 3px 18px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .bookNow a {
-    color: #222222;
+  color: #222222;
+  transition: all 0.3s ease-in-out;
+}
+
+.bookNow:hover {
+  background-color: #222222;
+  border: 1px solid #ebd8bf;
+  cursor: pointer;
+}
+
+.bookNow:hover a {
+  color: #ebd8bf;
+}
+
+.nav-item {
+  padding-inline: 1rem;
+}
+
+.nav-item a,
+.navbar-brand fa-icon,
+.navbar-brand span {
+  transition: all 0.3s ease;
+}
+
+.nav-item:hover a,
+.navbar-brand:hover fa-icon,
+.navbar-brand:hover span {
+  color: #c89722;
 }
