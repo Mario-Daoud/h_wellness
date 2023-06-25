@@ -4,7 +4,7 @@
   margin-top: 20px;
 }
 
-.heroText {
+#heroText {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
   height: 100%;
   padding-left: 15%;
 }
@@ -85,26 +84,20 @@ h1 {
   margin-left: 0.6rem;
 }
 
-.heroImage {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-  position: relative;
-}
-
-.heroImage img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-  position: relative;
+#heroImage {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-height: auto;
+  width: 600px;
+  z-index: 20;
+  transition: all 0.2s ease;
 }
 
 .bottomFrame {
-  margin-top: 128px;
+  margin-top: 110px;
   background-color: #c89722;
-  height: 130px;
+  height: 150px;
   width: 100%;
   padding-top: 15px;
   display: flex;
@@ -114,8 +107,14 @@ h1 {
 
 .serviceList ul {
   display: flex;
-  width: 60%;
+  width: 65%;
   justify-content: space-around;
+}
+
+.serviceList ul li {
+  list-style: none;
+  font-weight: 600;
+  color: #222222;
 }
 
 .listItem {
@@ -124,18 +123,18 @@ h1 {
 }
 
 .packageItem {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 1rem 1rem;
+  border-radius: 0.7rem;
+  font-size: 1.1rem;
 }
 
 .packageItem img {
   height: 55px;
   width: 55px;
-  background-color: #dcab35;
+  background-color: #c89722;
   padding: 12px;
   border-radius: 12px;
+  margin-right: 0.1rem;
 }
 
 .wrapper {
@@ -145,10 +144,36 @@ h1 {
   overflow: hidden;
 }
 
-#heroImage {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 950px;
-  z-index: 20;
+@media (width <= 1280px) {
+  #heroImage {
+    display: none;
+  }
+
+  .serviceList ul {
+    width: 100%;
+    padding: 0 50px;
+  }
+
+  .title, .bottomText {
+    padding-left: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media (width <= 1525px) {
+  #heroImage {
+    width: 500px;
+  }
+}
+
+@media (width <= 1356px) {
+  .packageItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    text-align: center;
+  }
 }
