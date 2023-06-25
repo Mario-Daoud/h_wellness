@@ -80,13 +80,13 @@ span:hover {
 
 .spot1 {
   position: absolute;
-  top: -400px;
+  top: -600px;
   left: -200px;
-  width: 1200px;
-  height: 1500px;
+  width: 1500px;
+  height: 1800px;
   background: radial-gradient(
     ellipse at center,
-    rgba(200, 151, 34, 0.2) 0%,
+    rgba(200, 151, 34, 0.1) 0%,
     rgba(200, 151, 34, 0) 70%
   );
   border-radius: 50%;
