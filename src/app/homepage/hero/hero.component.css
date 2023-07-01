@@ -135,6 +135,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   z-index: 50;
+  border-radius: 0 500px 0 0;
 }
 
 .serviceList ul {
@@ -177,6 +178,10 @@ h1 {
 }
 
 @media (width <= 1280px) {
+  .bottomFrame {
+    border-radius: 0;
+  }
+
   #heroImage {
     display: none;
   }
