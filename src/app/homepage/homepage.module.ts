@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { HeroComponent } from './hero/hero.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutusComponent } from './aboutus/aboutus.component';
-import { OurservicesComponent } from './ourservices/ourservices.component';
+import { ServicesComponent } from './services/services.component';
+import { CoreModule } from '../core/core.module';
 
 @NgModule({
-  declarations: [HeroComponent, AboutusComponent, OurservicesComponent],
-  imports: [CommonModule, FontAwesomeModule],
-  exports: [HeroComponent, AboutusComponent, OurservicesComponent],
+  declarations: [HeroComponent, AboutusComponent, ServicesComponent],
+  imports: [CommonModule, FontAwesomeModule, CoreModule],
+  exports: [HeroComponent, AboutusComponent, ServicesComponent],
 })
 export class HomepageModule {}

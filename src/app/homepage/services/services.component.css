@@ -1,0 +1,123 @@
+.wrapper {
+  width: 100%;
+  height: max-content;
+  background: #ebd8bf;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-family: kiyana;
+  font-weight: 500;
+  padding-top: 3rem;
+}
+
+.titleDesc {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.serviceCard {
+  height: 530px;
+  position: relative;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+}
+
+.bottomCard {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 3%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bottomCard * {
+  margin-bottom: 1rem;
+}
+
+.bottomCard p {
+  font-size: 1.25rem;
+}
+
+.bottomCard a {
+  text-decoration: none;
+  border: 1px solid #c89722;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.bottomCard a:hover {
+  background-color: #c89722;
+  cursor: pointer;
+}
+
+.card {
+  background-color: #ffecd2;
+  height: 530px;
+}
+
+.card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.generalDesc {
+  padding: 3%;
+}
+
+.generalDesc h5 {
+  font-size: 2rem;
+  font-family: kiyana;
+  font-weight: 500;
+  margin-top: 0.6rem;
+}
+
+.generalDesc p {
+  font-size: 1.05rem;
+  font-weight: 300;
+  margin-top: 0.6rem;
+  text-align: justify;
+}
+
+#showMore {
+  padding: 0.3rem 1rem;
+  border: 1px solid #222222;
+  color: #222222;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 3rem;
+  transition: transform 0.3s ease;
+}
+
+#showMore img {
+  width: 35px;
+  height: 35px;
+  margin-left: 0.2rem;
+}
+
+#showMore:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#showMore:active {
+  transform: scale(0.97);
+}
+
+.full {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

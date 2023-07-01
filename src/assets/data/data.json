@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Swedish Massage",
+    "description": "Relax and rejuvenate with a classic Swedish massage that uses long, gliding strokes to improve circulation and relieve muscle tension.",
+    "price": 80,
+    "image": "/assets/images/services/Swedish Massage.jpeg"
+  },
+  {
+    "name": "Aromatherapy Massage",
+    "description": "Indulge in a therapeutic massage combined with the healing properties of essential oils to enhance relaxation and promote overall well-being.",
+    "price": 90,
+    "image": "/assets/images/services/Aromatherapy Massage.jpeg"
+  },
+  {
+    "name": "Hot Stone Massage",
+    "description": "Experience the soothing warmth of smooth, heated stones placed on key points of your body, melting away stress and promoting deep relaxation.",
+    "price": 100,
+    "image": "/assets/images/services/Hot Stone Massage.jpg"
+  },
+  {
+    "name": "Facial Treatment",
+    "description": "Revitalize your skin with a customized facial treatment that includes deep cleansing, exfoliation, and a nourishing mask, leaving your skin refreshed and glowing.",
+    "price": 70,
+    "image": "/assets/images/services/Facial Treatment.jpeg"
+  },
+  {
+    "name": "Body Scrub",
+    "description": "Reveal silky-smooth skin with a gentle exfoliating body scrub that removes dead skin cells, followed by a hydrating moisturizer for ultimate softness.",
+    "price": 60,
+    "image": "/assets/images/services/Body Scrub.jpeg"
+  },
+  {
+    "name": "Manicure",
+    "description": "Pamper your hands with a meticulous manicure, including nail shaping, cuticle care, a hand massage, and a choice of nail polish for a polished look.",
+    "price": 30,
+    "image": "/assets/images/services/Manicure.jpg"
+  },
+  {
+    "name": "Pedicure",
+    "description": "Treat your feet to a relaxing pedicure, featuring a foot soak, nail trimming, callus removal, foot massage, and a wide selection of nail polish colors.",
+    "price": 40,
+    "image": "/assets/images/services/Pedicure.jpg"
+  },
+  {
+    "name": "Yoga Classes",
+    "description": "Join our invigorating yoga classes suitable for all levels, promoting flexibility, strength, and inner peace through a series of mindful movements and breath work.",
+    "price": 15,
+    "image": "/assets/images/services/Yoga Classes.jpeg"
+  },
+  {
+    "name": "Meditation Sessions",
+    "description": "Embark on a journey of self-discovery and relaxation with guided meditation sessions that help reduce stress, increase mindfulness, and promote mental well-being.",
+    "price": 20,
+    "image": "/assets/images/services/Meditation Sessions.jpeg"
+  }
+]

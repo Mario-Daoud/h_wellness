@@ -1,0 +1,38 @@
+<div class="wrapper">
+  <h1>Services We Provide</h1>
+  <p class="titleDesc">
+    At exquisite spa, we believe that self-care is a vital component of a
+    balanced lifestyle.
+  </p>
+
+  <div class="grid container">
+    <div class="row">
+      <div
+        *ngFor="let service of displayedServices; let i = index"
+        class="col-md-4 col-sm-6 serviceCard"
+      >
+        <div class="card">
+          <div class="generalDesc">
+            <img [src]="service.image" alt="Service Image" />
+            <h5>{{ service.name }}</h5>
+            <p>{{ service.description }}</p>
+          </div>
+
+          <div class="bottomCard">
+            <p>
+              Starting at <strong>${{ service.price }}</strong>
+            </p>
+            <a>Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="full">
+      <a id="showMore" *ngIf="showMoreButton" (click)="showMore()"
+        >See All Services
+        <img src="/assets/images/services/arrow-right.svg" alt="arrowright"
+      /></a>
+    </div>
+  </div>
+</div>
