@@ -30,6 +30,7 @@ import { ReviewsComponent } from './reviews/reviews.component';
     AboutusComponent,
     ServicesComponent,
     RecentworksComponent,
+    ReviewsComponent
   ],
 })
 export class HomepageModule {}
