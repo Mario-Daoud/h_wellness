@@ -8,6 +8,7 @@ import { ServicesComponent } from './services/services.component';
 import { CoreModule } from '../core/core.module';
 import { FormsModule } from '@angular/forms';
 import { RecentworksComponent } from './recentworks/recentworks.component';
+import { ReviewsComponent } from './reviews/reviews.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { RecentworksComponent } from './recentworks/recentworks.component';
     AboutusComponent,
     ServicesComponent,
     RecentworksComponent,
+    ReviewsComponent,
   ],
   imports: [
     CommonModule,
