@@ -7,11 +7,13 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HomepageModule } from './homepage/homepage.module';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

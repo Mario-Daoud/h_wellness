@@ -34,7 +34,6 @@ h1 {
   justify-content: space-between;
   padding-inline: 3%;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .bottomCard * {
@@ -122,4 +121,19 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
+}
+
+@media (width < 992px) {
+  .bottomCard p {
+    font-size: 1rem;
+  }
+
+  .card {
+    height: 600px;
+  }
+
+  .serviceCard {
+    margin-bottom: 100px;
+  }
 }
