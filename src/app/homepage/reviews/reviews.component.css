@@ -37,8 +37,15 @@
   line-height: 1.5;
 }
 
-.left, .right {
-    padding: 2rem;
+.left {
+  padding-right: 2rem;
+}
+.right {
+  padding-left: 2rem;
+}
+
+.reviewContainer {
+  margin-bottom: 100px;
 }
 
 .review img {
@@ -73,4 +80,97 @@
   border-radius: 50%;
   height: 30px;
   width: 30px;
+  padding: 5px;
+}
+
+.form {
+  background-color: #ebd8bf;
+  padding: 2rem;
+  border-radius: 2px;
+}
+
+.point {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.leftColPoint {
+  padding-left: 50px;
+}
+
+.point img {
+  height: 45px;
+  width: 45px;
+  margin-right: 1rem;
+  background-color: #dcab35;
+  border-radius: 15px;
+  padding: 0.5rem;
+}
+
+.point h5 {
+  font-size: 1rem;
+}
+.point p {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.point h5,
+.point p {
+  margin: 0;
+  color: #222;
+}
+
+.contactForm {
+  margin-top: 1rem;
+  color: #222;
+}
+
+.contactField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1.3rem;
+}
+
+.contactForm a {
+  text-decoration: none;
+  color: #222;;
+  background-color: #dcab35;
+  font-size: 1rem;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  padding: 0.8rem 2.5rem;
+  margin-left: 15px;
+}
+
+.contactForm a:hover {
+  background-color: #c89722;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contactForm a:active {
+  transform: scale(0.97);
+}
+
+.contactField label {
+  font-size: 0.8rem;
+  font-size: 1rem;
+}
+
+.contactField input {
+  border: none;
+  background-color: #ebd0a4;
+  height: 50px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.message input {
+  height: 150px;
 }

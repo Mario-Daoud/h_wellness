@@ -61,7 +61,8 @@ h1 {
 
 .card {
   background-color: #ffecd2;
-  height: 530px;
+  height: 550px;
+  border: none;
 }
 
 .card img {

@@ -1,6 +1,6 @@
 <div class="wrapper">
   <div class="spot1"></div>
-  <div class="reviews container">
+  <div class="reviewContainer container">
     <div class="row">
       <div class="left col-md-6 col-sm-12">
         <div class="topText">
@@ -11,11 +11,11 @@
         <div class="review">
           <img src="/assets/images/reviews/1.jpg" alt="review" />
           <div class="rating">
-            <img src="/assets/images/reviews/star.svg" alt="ratingstar">
-            <img src="/assets/images/reviews/star.svg" alt="ratingstar">
-            <img src="/assets/images/reviews/star.svg" alt="ratingstar">
-            <img src="/assets/images/reviews/star.svg" alt="ratingstar">
-            <img src="/assets/images/reviews/half-star.svg" alt="ratingstar">
+            <img src="/assets/images/reviews/star.svg" alt="ratingstar" />
+            <img src="/assets/images/reviews/star.svg" alt="ratingstar" />
+            <img src="/assets/images/reviews/star.svg" alt="ratingstar" />
+            <img src="/assets/images/reviews/star.svg" alt="ratingstar" />
+            <img src="/assets/images/reviews/half-star.svg" alt="ratingstar" />
             <p>(4.5 star rating)</p>
           </div>
           <p>
@@ -31,11 +31,11 @@
         <div class="review">
           <img src="/assets/images/reviews/2.jpeg" alt="review" />
           <div class="rating">
-            <img src="/assets/images/reviews/star.svg" alt="ratingstar">
-            <img src="/assets/images/reviews/star.svg" alt="ratingstar">
-            <img src="/assets/images/reviews/star.svg" alt="ratingstar">
-            <img src="/assets/images/reviews/star.svg" alt="ratingstar">
-            <img src="/assets/images/reviews/star.svg" alt="ratingstar">
+            <img src="/assets/images/reviews/star.svg" alt="ratingstar" />
+            <img src="/assets/images/reviews/star.svg" alt="ratingstar" />
+            <img src="/assets/images/reviews/star.svg" alt="ratingstar" />
+            <img src="/assets/images/reviews/star.svg" alt="ratingstar" />
+            <img src="/assets/images/reviews/star.svg" alt="ratingstar" />
             <p>(5 star rating)</p>
           </div>
           <p>
@@ -50,54 +50,59 @@
     </div>
   </div>
 
-  <div class="form">
+  <div class="form container">
     <div class="row">
-        <div class="col-md-6">
-            <div class="point">
-                <img src="" alt="">
-                <div class="desc">
-                    <h5></h5>
-                    <p></p>
-                </div>
-            </div>
-            <div class="point">
-                <img src="" alt="">
-                <div class="desc">
-                    <h5></h5>
-                    <p></p>
-                </div>
-            </div>
-            <div class="point">
-                <img src="" alt="">
-                <div class="desc">
-                    <h5></h5>
-                    <p></p>
-                </div>
-            </div>
+      <div class="col-6 leftColPoint">
+        <div class="point">
+          <img src="/assets/images/reviews/location.svg" alt="reviewIcon" />
+          <div class="desc">
+            <h5>Find us here</h5>
+            <p>
+              1234 Randomstreet <br />
+              Randomcity, Randomplace 12345
+            </p>
+          </div>
         </div>
-        <div class="col-md-6">
-            <div class="col-md-6">
-                <label for=""></label>
-                <input type="text" name="">
-            </div>
-            <div class="col-md-6">
-                <label for=""></label>
-                <input type="text" name="">
-            </div>
-            <div class="col-md-6">
-                <label for=""></label>
-                <input type="text" name="">
-            </div>
-            <div class="col-md-6">
-                <label for=""></label>
-                <input type="text" name="">
-            </div>
-            <div class="col-md-12">
-                <label for=""></label>
-                <input type="text" name="">
-            </div>
+        <div class="point">
+          <img src="/assets/images/reviews/phone.svg" alt="reviewIcon" />
+          <div class="desc">
+            <h5>Call us</h5>
+            <p>(303) 555-555</p>
+          </div>
         </div>
+        <div class="point">
+          <img src="/assets/images/reviews/mail.svg" alt="reviewIcon" />
+          <div class="desc">
+            <h5>Email address</h5>
+            <p>exquisite@example.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="row contactForm">
+          <div class="col-md-6 contactField">
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" />
+          </div>
+          <div class="col-md-6 contactField">
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" />
+          </div>
+          <div class="col-md-6 contactField">
+            <label for="phone">Phone Number</label>
+            <input type="text" name="phone" />
+          </div>
+          <div class="col-md-6 contactField">
+            <label for="email">Email Address</label>
+            <input type="text" name="email" />
+          </div>
+          <div class="col-md-12 contactField message">
+            <label for="message">Your Message</label>
+            <input type="text" name="message" />
+          </div>
+          <a>Send</a>
+        </div>
+      </div>
     </div>
-    <button>Send</button>
   </div>
 </div>
