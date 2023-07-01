@@ -17,7 +17,7 @@ import { HomepageModule } from './homepage/homepage.module';
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    HomepageModule
+    HomepageModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

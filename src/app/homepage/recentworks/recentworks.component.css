@@ -1,0 +1,44 @@
+.wrapper {
+  width: 100%;
+}
+
+.topSection {
+  color: #ebd8bf;
+  font-family: kiyana;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.topSection h1 {
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.topSection p {
+  font-size: 1.3rem;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: center;
+  padding-inline: 2rem;
+  padding-bottom: 3rem;
+}
+
+.bottomSection img {
+  width: calc(100% / 7);
+  aspect-ratio: 9/16;
+  object-fit: cover;
+  padding: 8px;
+}
+
+.middleImage {
+  width: calc(100% / 5) !important;
+  object-fit: cover;
+  padding: 8px;
+}
